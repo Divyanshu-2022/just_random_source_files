@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home || M3M golfState</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="./m3m-logo.png" alt="pick" class="logo-img">
+            </div>
+            <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Home</a>
+                    <a href="#">Overview</a>
+                    <a href="#">Amenities</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Floor</a>
+                    <a href="#">Master PLan</a>
+            </div>
+            <!-- <button>Nav</button> -->
+            <div class="nav">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <a href="tel:9992172727" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                        <span class="elementor-button-text">+91-9992172727</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <section>
+        
+        <div class="request__form1">
+            <br>
+             <h2 class="form__head">DOWNLOAD BROCHURE HERE!</h2>
+             <br>
+             <h3>Starting Price ₹ 1.23 Cr*</h3>
+             <br>
+        <form  action="htttps://formspree.io/f/mjvdpegl" class="request__form" method="POST">
+            <label for="name"> <input type="text" name="name" id="name" placeholder="Name"></label><br>
+            <br>
+            <label for="email"> <input type="email" name="email" id="email" placeholder="email"></label><br>
+            <br>
+            <label for="tel"><input type="text" name="message" id="phone" placeholder="Your Massage"></label><br>
+              <br>
+            <button type="submit" class="button__submit" >Request Now</button>
+        </form>
+        </div>
+    </section>
+    <section class="image_section">
+        <div class="imageSlider">
+            <!-- <img src="./Assets/1.webp" alt="">
+            <img src="./Assets//2.webp" alt="">
+            <img src="./Assets/3.webp" alt="">
+            <img src="./Assets/4.webp" alt="">
+            <img src="./Assets/5.webp" alt="">
+            <img src="./Assets/6.webp" alt="">
+            <img src="./Assets/7.webp" alt=""> -->
+        </div>
+    </section>
+    <!-- <section class="pop_up_form"> -->
+        <div class="popup" id="pop">
+            <button id="close" onclick=(closePop())>&times;</button>
+            <form action="post">
+                <h1>Send us a Message</h1>
+                <br>
+                <label for="name">
+                    <input type="text" name="name" placeholder="Your Name"><br>
+                </label><br>
+                <label for="">
+                    <input type="email" name="email" placeholder="Your Email"><br>
+                </label><br>
+                <label for="">
+                    <input type="tel" name="phone no" placeholder="Your Phone No"><br>
+                </label><br>
+                <input type="button" value="Submit">
+                <br>
+            </form>
+        </div>
+    <!-- </section> -->
+    <a href=" tel:6306031775" class="float-phone" target="_blank">
+        <i class="fa fa-phone my-float"></i>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=9992172727&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./form.js"></script>
+</body>
+</html>

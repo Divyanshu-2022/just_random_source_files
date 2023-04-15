@@ -1,0 +1,97 @@
+body{
+    background-color: #4CAF50;
+}
+
+
+.side-slider-form-container {
+    position: fixed;
+    right: 0%;
+    top: 30%;
+    display: flex;
+    border-radius: 15px;
+    transform: translateY(-60%);
+    transition: translate(40ms ease);
+  }
+  
+  .open-side-slider-btn {
+    background-color: #faf600;
+    color: rgb(255, 255, 255);
+    font-size:15px;
+    top:20%;
+    border-radius: 15px;
+    border-radius: 10px;
+    padding: 12px 16px;
+    border: none;
+    position: relative;
+    transform: rotate(90deg);
+    cursor: pointer;
+    right: -30px;
+  }
+  .side-slider-form h2{
+    text-align: center;
+  }
+  .side-slider-form {
+    position: fixed;
+    text-align: center;
+    page-break-after: auto;
+    top: 100%;
+    right:-20%;
+    right: -320px;
+    width: 300px;
+    border-radius: 15px 15px 0px 0px;
+    height: 100%;
+    background-color: #ffffff;
+    padding: -20px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .side-slider-form h3 {
+    margin-top: 0;
+  }
+  
+  .side-slider-form form {
+    display: flex;
+    border-radius: 0px 0px 15px 15px;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  
+  .side-slider-form label {
+    margin-top: 10px;
+  }
+  
+  .side-slider-form input[type="text"],
+  .side-slider-form input[type="email"],
+  .side-slider-form input[type="tel"] {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin-bottom: 20px;
+  }
+  
+  .side-slider-form button[type="submit"] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-side-slider-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size:30px;
+    background-color: #fffefe;
+    color: rgb(3, 3, 3);
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  @media (min-width:900px){
+    .side-slider-form-container{
+        display:none;
+    }
+  }

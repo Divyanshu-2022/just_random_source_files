@@ -2,9 +2,9 @@ function sendEmail() {
     Email.send({
       Host: "https://gmail.com",
       Secure:'tls',
-      Username: "divyanshutripathi7826@gmail.com",
-      Password: "9695ddhh98",
-      To: "divyanshutripathi2076@gmail.com",
+      Username: "YourMail@gmail.com",
+      Password: "Your PassWord",
+      To: "YourMail@gmail.com",
       From: document.getElementById("email").value,
       Subject: "You Have a new Enquiry from",
       Body:
